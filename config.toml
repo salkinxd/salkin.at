@@ -1,0 +1,63 @@
+baseurl = "salkin.at"
+title = "Niklas Wonnebauer"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+paginate = 10
+
+[params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "02.01.2006"
+dateformNumTime = "02.01.2006 15:04"
+
+# Subtitle for home
+homeSubtitle = "Just a guy being a dude"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = true
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Metadata mostly used in document's head
+description = "Niklas Wonnebauer Personal Website"
+keywords = "homepage, blog, personal, portfolio, website, niklas, wonnebauer, niklas wonnebauer"
+images = [""]
+
+[params.portrait]
+path = "images/me.jpg"
+alt = "test"
+maxWidth = "100px"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/salkinxd"
+
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/notsalkin"
+
+
+[taxonomies]
+category = "blog"
+tag = "tags"
+series = "series"
+
+[languages]
+[languages.en]
+title = "Niklas Wonnebauer"
+subtitle = "Salkin"
+keywords = "Niklas Wonnebauer"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
+
+[languages.en.params.logo]
+logoText = "Niklas Wonnebauer"
+logoHomeLink = "/"
+logoCursorColor = "#6a6ffc"
+
+# And you can even create generic menu
+# [[menu.main]]
+# identifier = "projects"
+# name = "Projects"
+# url = "/projects"
