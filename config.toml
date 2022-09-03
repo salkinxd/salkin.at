@@ -27,7 +27,7 @@ images = [""]
 [params.portrait]
 path = "images/me.jpg"
 alt = "test"
-maxWidth = "100px"
+maxWidth = "200px"
 
 [[params.social]]
 name = "twitter"
@@ -36,6 +36,10 @@ url = "https://twitter.com/salkinxd"
 [[params.social]]
 name = "instagram"
 url = "https://instagram.com/notsalkin"
+
+[[params.social]]
+name = "steam"
+url = "https://steamcommunity.com/id/salkinxd"
 
 
 [taxonomies]
