@@ -23,4 +23,4 @@ _For Personal use only_
 
 ## Feedback
 
-If you have any feedback, please reach out to us at feedback@salkin.at
+If you have any feedback, please reach out at feedback@salkin.at
