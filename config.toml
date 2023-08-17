@@ -1,8 +1,14 @@
-baseurl      = "https://salkin.at/"
+baseurl      = "/"
 title        = "Niklas Wonnebauer"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
 
 [params]
 dateform        = "Jan 2, 2006"
